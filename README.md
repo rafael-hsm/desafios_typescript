@@ -3,10 +3,8 @@ Repositório para compartilhar os desafios de TypeScript.
 Instruções criadas com base no Bootcamp promovido pela DIO em parceria com a Impulso. O curso Introdução Prática ao TypeScript foi ministrado pelo João Pedro Lira dos Santos - Software Engineer (Take Blip) . Link do repositório de origem: https://github.com/lira1705/mentoria-typescript/tree/main/src
 
 ## Passo a passo para criação do projeto
-1. Criamos um projeto Node com o comando:
-`npm init`
-
-O projeto foi criado sem muitas especificações, informei apenas uma descrição e o nome do author.
+1. Criamos um projeto Node com o comando:`npm init`
+Obs.O projeto foi criado sem muitas especificações, informei apenas: descrição e nome do author.
 
 2. Vamos instalar o typescript como uma dependência de desenvolvimento com o comando:
 `npm install --save-dev typescript`
