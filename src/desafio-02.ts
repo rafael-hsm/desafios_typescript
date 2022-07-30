@@ -1,27 +1,3 @@
-// DESAFIO 01
-// Como podemos rodar isso em um arquivo .ts sem causar erros? 
-
-// let employee = {};
-// employee.code = 10;
-// employee.name = "John";
-
-// Resposta
-let employee = {
-    code: 1,
-    name: "Nome"
-};
-employee.code = 10;
-employee.name = "John";
-
-// Também podemos ser mais explícitos
-let employee2: { code: number, name: string } = {
-    code: 2,
-    name: "Nome2"
-};
-employee2.code = 11;
-employee2.name = "Travolta";
-
-
 // ####################################
 // DESAFIO 02
 // ####################################
@@ -51,7 +27,7 @@ employee2.name = "Travolta";
 // }
 
 // Resposta - Desafio - 02
-
+console.log("Desafio - 02")
 interface cadastroPessoas {
     nome: string,
     idade: number,
@@ -59,7 +35,12 @@ interface cadastroPessoas {
 }
 
 enum profissaoEnum {
-    "atriz", "ator", "padeiro", "padeira", "desenvolvedor", "desenvolvedora"
+    "atriz" = "atriz",
+    "ator" = "ator",
+    "padeiro" = "pedreiro",
+    "padeira" = "padeira",
+    "desenvolvedor" = "desenvolvedor",
+    "desenvolvedora" = "desenvolvedora"
 }
 
 (() => {
@@ -93,3 +74,4 @@ enum profissaoEnum {
     console.log(`${pessoa3.nome} tem ${pessoa3.idade} anos de idade e trabalha como ${pessoa3.profissao}.`)
     console.log(`${pessoa4.nome} tem ${pessoa4.idade} anos de idade e trabalha como ${pessoa4.profissao}.`)
 })()
+console.log("### FIM ###")
