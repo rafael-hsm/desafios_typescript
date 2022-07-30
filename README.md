@@ -2,6 +2,9 @@
 Repositório para compartilhar os desafios de TypeScript.
 Instruções criadas com base no Bootcamp promovido pela DIO em parceria com a Impulso. O curso Introdução Prática ao TypeScript foi ministrado pelo João Pedro Lira dos Santos - Software Engineer (Take Blip) . Link do repositório de origem: https://github.com/lira1705/mentoria-typescript/tree/main/src
 
+### DESAFIO 04
+Para o mesmo funcionar é necessário criar uma api key confome descrito no código.
+
 ## Passo a passo para criação do projeto
 1. Criamos um projeto Node com o comando:`npm init`
 Obs.O projeto foi criado sem muitas especificações, informei apenas: descrição e nome do author.
