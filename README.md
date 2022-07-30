@@ -1,5 +1,6 @@
-# desafios_typescript
+# Desafios_typescript
 Repositório para compartilhar os desafios de TypeScript.
+Instruções criadas com base no Bootcamp promovido pela DIO em parceria com a Impulso. O curso Introdução Prática ao TypeScript foi ministrado pelo João Pedro Lira dos Santos - Software Engineer (Take Blip) . Link do repositório de origem: https://github.com/lira1705/mentoria-typescript/tree/main/src
 
 ## Passo a passo para criação do projeto
 1. Criamos um projeto Node com o comando:
@@ -24,3 +25,9 @@ Obs. O defer serve para carregar o js após carregar todos os elementos da pági
 
 7. Para criar o arquivo em TypeScript execute o comando:
 `tsc -init`
+Obs. é criado um arquivo tsconfig.json
+
+8. No arquivo package.json também podemos adicionar outro comando ao script para compilarmos um arquivo typescript. Vamos adicionar:
+`"watch": "tsc --watch"
+
+9. Agora basta digitarmos `npm run watch` para a compilação acontecer. Automaticamente será criado um arquivo js com o código.
