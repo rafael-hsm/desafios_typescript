@@ -1,0 +1,27 @@
+{
+  "name": "desafios_typescript",
+  "version": "1.0.0",
+  "description": "Repositório para resolução dos 4 desafios propostos durante o BootCamp da Impulso",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "lite-server",
+    "watch": "tsc --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rafael-hsm/desafios_typescript.git"
+  },
+  "author": "Rafael Henrique de Sousa Meireles",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rafael-hsm/desafios_typescript/issues"
+  },
+  "homepage": "https://github.com/rafael-hsm/desafios_typescript#readme",
+  "devDependencies": {
+    "typescript": "^4.7.4"
+  },
+  "dependencies": {
+    "lite-server": "^2.6.1"
+  }
+}
